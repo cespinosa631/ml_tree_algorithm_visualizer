@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ml_tree_algorithm_visualizer/static/css/main.666dbb6d.css",
+    "main.js": "/ml_tree_algorithm_visualizer/static/js/main.5cf596e5.js",
+    "static/js/453.c16316a8.chunk.js": "/ml_tree_algorithm_visualizer/static/js/453.c16316a8.chunk.js",
+    "static/media/settings.png": "/ml_tree_algorithm_visualizer/static/media/settings.5a9b1f24255c107115bc.png",
+    "index.html": "/ml_tree_algorithm_visualizer/index.html",
+    "main.666dbb6d.css.map": "/ml_tree_algorithm_visualizer/static/css/main.666dbb6d.css.map",
+    "main.5cf596e5.js.map": "/ml_tree_algorithm_visualizer/static/js/main.5cf596e5.js.map",
+    "453.c16316a8.chunk.js.map": "/ml_tree_algorithm_visualizer/static/js/453.c16316a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.666dbb6d.css",
+    "static/js/main.5cf596e5.js"
+  ]
+}
