@@ -1,0 +1,196 @@
+/* Main container */
+.con {
+  height: 640px;
+  width: 1200px;
+  background-color: #d6e3f7;
+  border: 3px solid #485b80;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Setting button */
+.point-setting {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  bottom: 110px;
+  left: 170px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.point-setting:hover {
+  background-color: #d9e3f0;
+  transform: scale(1.1);
+}
+
+/* Canvas container */
+.canvas-con {
+  height: 500px;
+  width: 600px;
+  background-color: #fff;
+  border: 3px solid;
+  border-radius: 15px;
+  margin-right: 20px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Control bar */
+.bar-con {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Parameter container */
+.para-con {
+  height: 640px;
+  width: 300px;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-around;
+  box-shadow: 5px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+.button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  background-color: #3b82f6;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #8c8f96;
+}
+
+/* Labels */
+.label {
+  font-size: 40px;
+  color: #485b80;
+  text-align: right; /* Align labels to the right */
+}
+
+/* Form elements */
+.select-container,
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align form elements to the right */
+  margin-bottom: 10px;
+}
+
+select,
+input {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #a0aec0;
+  transition: border-color 0.3s;
+  display: flex;
+  flex-direction: column;/* Align form elements to the right */
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+select:focus,
+input:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+/* Top button */
+.topbutton {
+  margin: 5px 0;
+}
+
+/* Range input */
+input[type="color"],
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 30px;
+  background: transparent;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #485b80;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: #667da0;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.settingIcon{
+  height: 20px;
+  width: 20px;
+}
+.dropdown{
+  height: 45px;
+  width: 100px;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+.rightSide{
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.loss{
+  background-color: #fff;
+  border: 4px solid #000000;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+  bottom: 110px;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+
+}
+.pointError{
+  position: relative;
+}
+.example{
+  background-color: #f70a0a;
+}
